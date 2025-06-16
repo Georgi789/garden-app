@@ -25,8 +25,3 @@ if (plantType === "flower") {
 
 // Log the generated advice to the console
 console.log(advice);
-
-
-
-
-
