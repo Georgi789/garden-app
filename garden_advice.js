@@ -26,6 +26,15 @@ if (plantType === "flower") {
 // Log the generated advice to the console
 console.log(advice);
 
+//Watering reminder
+function wateringReminder(plantName, frequencyInDays) {
+    console.log(`Don't forget to water your ${plantName} every ${frequencyInDays} day(s)!`);
+}
+
+// Example usage
+wateringReminder("rose", 2);
+
+
 // TODO: Examples of possible features to add:
 // - Add detailed comments explaining each block of code.
 // - Refactor the code into functions for better readability and modularity.
