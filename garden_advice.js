@@ -7,9 +7,9 @@ let advice = "";
 
 // Determine advice based on the season
 if (season === "summer") {
-    advice += "Water your plants regularly and provide some shade.\n";
+    advice += "Water your plants regularly and provide some shade.\n";//Here is a comment explaining the advice for summer
 } else if (season === "winter") {
-    advice += "Protect your plants from frost with covers.\n";
+    advice += "Protect your plants from frost with covers.\n";//Here is a comment explaining the advice for winter
 } else {
     advice += "No advice for this season.\n";
 }
