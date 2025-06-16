@@ -7,9 +7,9 @@ let advice = "";
 
 // Determine advice based on the season
 if (season === "summer") {
-    advice += "Water your plants regularly and provide some shade.\n";
+    advice += "Water your plants regularly and provide some shade.\n";//Here is a comment explaining the advice for summer
 } else if (season === "winter") {
-    advice += "Protect your plants from frost with covers.\n";
+    advice += "Protect your plants from frost with covers.\n";//Here is a comment explaining the advice for winter
 } else {
     advice += "No advice for this season.\n";
 }
@@ -26,8 +26,9 @@ if (plantType === "flower") {
 // Log the generated advice to the console
 console.log(advice);
 
-// TODO: Examples of possible features to add:
-// - Add detailed comments explaining each block of code.
-// - Refactor the code into functions for better readability and modularity.
-// - Store advice in an object for multiple plants and seasons.
-// - Suggest plants that thrive in the given season.
+//Watering reminder
+function wateringReminder(plantName, frequencyInDays) {
+    console.log(`Don't forget to water your ${plantName} every ${frequencyInDays} day(s)!`);
+}
+
+wateringReminder("rose", 2);
